@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="ea7b4695-d843-4f5b-88d9-d0860d2b9400" 
+        solutionId="ea7b4695-d843-4f5b-88d9-d0860d2b9400" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SharePointHelpers"
+        sharePointProductVersion="15.0">
+</package>

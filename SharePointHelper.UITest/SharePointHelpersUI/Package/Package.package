@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9f856a55-1c28-49c5-96e9-e48099ef0a27" solutionId="9f856a55-1c28-49c5-96e9-e48099ef0a27" resetWebServer="false" sharePointProductVersion="15.0" name="SharePointHelpersUI" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="8ace54d0-0747-4085-a029-e35e45216d4a" />
+  </features>
+</package>
