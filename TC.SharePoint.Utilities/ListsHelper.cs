@@ -33,9 +33,9 @@ namespace TC.SharePoint.Utilities
         /// </summary>
         /// <param name="web"></param>
         /// <param name="listTitle"></param>
-        public static void EnsureListCleanup(SPWeb web, string listTitle)
+        public static void EnsureListCleanup(SPWeb web, string Title)
         {
-            SPList list = web.Lists.TryGetList(listTitle);
+            SPList list = web.Lists.TryGetList(Title);
             if (list != null)
                 list.Delete();
         }
