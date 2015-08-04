@@ -75,6 +75,7 @@
     <Compile Include="ListsHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils.cs" />
+    <Compile Include="ViewsHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
