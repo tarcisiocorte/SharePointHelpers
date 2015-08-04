@@ -45,6 +45,24 @@ namespace TC.SharePoint.Utilities
             view.Update();
         }
 
+        /// <summary>
+        /// This method add a new View to a List.
+        /// </summary>
+        /// <param name="list"></param>
+        /// <param name="viewTitle"></param>
+        /// <param name="fieldsToShow"></param>
+        public static void AddViewToList(SPList list, string viewTitle, string[] fieldsToShow)
+        {
+            string viewName = GetValidStrForUrl(viewTitle);
+            System.Collections.Specialized.StringCollection collViewFields = new System.Collections.Specialized.StringCollection();
+            foreach (string fieldStr in fieldsToShow)
+                collViewFields.Add(list.Fields.GetField(fieldStr).InternalName);
+            SPView view = list.Views.Add(viewName, collViewFields, null, 30, true, false);
+            view.Title = viewTitle;
+            view.Update();
+        }
+
+
         private static string GetValidStrForUrl(string viewTitle)
         {
             return viewTitle.Replace(" ", "");
