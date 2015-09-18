@@ -6,7 +6,7 @@ using System.Text;
 
 namespace TC.SharePoint.Utilities
 {
-    public class ViewsHelper
+    public static class ViewsHelper
     {
         /// <summary>
         /// This method create view in order to show files of a list without show the folders of files.
